@@ -1,45 +1,27 @@
-.geral{
+body{
+  margin: 0;
+}
+
+header{
+  margin: 0;
   display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #ccc;
+}
+
+.header{
+  height: 80px;
+  background-color: #ccc;
+}
+
+.slider{
+  display: flex;
+  flex: 1;
+  background-color: bisque;
+}
+
+footer{
+  height: 700px;
 background-color: #ccc;
-justify-content: center;
-}
-
-.cachorro-1 img{
-  display: flex;
-  max-width: 400px;
-  height: 300px;
-  gap: 10px;
-  padding: 5px;
-}
-
-.cachorro-2 img{
-  display: flex;
-  max-width: 400px;
-  height: 300px;
-  gap: 10px;
-  padding: 5px;
-}
-
-.cachorro-3 img{
-  display: flex;
-  max-width: 400px;
-  height: 300px;
-  gap: 10px;
-  padding: 5px;
-}
-
-.fa-arrow-right{ 
-  font-size: 3em;
-position: absolute;
-padding-top: 140px;
-color: blueviolet;
-cursor: pointer;
-padding-left: 5px;
-}
-
-.fa-arrow-left{
-  font-size: 2em;
-  position: absolute;
-  padding-top: 150px;
-  padding-left: 375px;
 }
