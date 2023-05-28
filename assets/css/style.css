@@ -54,16 +54,17 @@ footer{
 .slider-controls{
   position: absolute;
   z-index: 99;
-  width: 100%;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .slider-control{
-  width: 50%;
+  width: 50px;
   height: 50px;
-  background-color: #fff;
+  background-color: blueviolet;
+  border-radius: 50%;
   overflow: hidden;
   cursor: pointer;
 }
