@@ -14,7 +14,11 @@ function goPrev(){
 }
 
 function goNext(){
-  
+  slideAtual++;
+  if( slideAtual > (totalSlides-1)){
+    slideAtual = 0;
+  }
+  updateMargin();
 }
 
 updateMargin(){}
